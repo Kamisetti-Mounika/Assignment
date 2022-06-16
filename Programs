@@ -1,0 +1,24 @@
+class V
+{
+  Static java.util.scanner = new java.util.scanner(system.in);
+  public static void main (string[] args)
+  {
+    int a = new.textInt();
+    int b = new.textInt();
+    int c = new.textInt();
+    if(a>b && a>c)
+    {
+      System.out.println("a");
+      }
+      else if(b>c && b>c)
+      {
+        System.out.println("b");
+        }
+        else
+        {
+        System.out.println("c");
+        }
+     }
+  }
+      
+    
