@@ -1,0 +1,23 @@
+#!/bin/bash
+
+echo "enter your firstname:"
+read firstname
+
+if [[ "${firstname}" =~ [^a-zA-Z] ]]; 
+then
+   echo "invalid"
+else 
+echo "valid"
+
+echo "enter your lastname:"
+read lastname
+
+   echo "invalid"
+else
+
+echo "$firstname $lastname"
+
+echo "$firstname.$lastname" |sha1sum
+
+fi
+
