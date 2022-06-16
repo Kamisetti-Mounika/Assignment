@@ -1,0 +1,16 @@
+read n
+a=0
+b=1
+for((i=0; i<=n; i++))
+do
+  echo "$a"
+  c=$((a+b))
+  a=$b
+  b=$c
+if(($a%2==0))
+then
+ echo "EVEN fIBONACI SEQUENCE: +$a" >>Even.txt
+else
+ echo "Odd Fibonacci sequence: +$a" >>Odd.txt
+fi
+ done
